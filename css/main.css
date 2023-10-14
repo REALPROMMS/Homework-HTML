@@ -1,0 +1,40 @@
+.header {
+  margin: 45px 0px 90px 0px;
+}
+
+.seo__info {
+  margin-bottom: 162px;
+}
+
+.seo__left h1 {
+  margin-bottom: 17px;
+}
+.seo__left .button {
+  margin-top: 37px;
+}
+
+.seo__logo {
+  padding: 97px 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+span {
+  color: #F25822;
+}
