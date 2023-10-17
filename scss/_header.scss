@@ -1,6 +1,52 @@
 .header {
 	margin: 45px 0px 90px 0px;
+	display: flex;
+	justify-content: space-between;
+
+	.header__left {
+		display: flex;
+		align-items: center;
+		gap: 14px;
+
+		h5 {
+			color: #000;
+			font-family: Gilroy-Bold;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+
 }
+
+.header__link {
+
+	ul {
+		display: flex;
+		gap: 2rem;
+	}
+}
+
+.span-h5 {
+	color: #F25822;
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.span-link {
+	color: #F25822;
+	font-family: Gilroy-SemiBold;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
 
 ul {
 	list-style-type: none;
@@ -8,6 +54,12 @@ ul {
 
 a {
 	text-decoration: none;
+	color: #000;
+	font-family: Gilroy-Medium;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 details {
@@ -20,6 +72,11 @@ details summary {
 	position: relative;
 }
 
+details[open] ul {
+	flex-direction: column;
+	margin-top: 10px;
+	gap: 5px;
+}
 
 details summary::after {
 	content: ' ›';
