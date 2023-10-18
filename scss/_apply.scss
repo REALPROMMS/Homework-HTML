@@ -1,0 +1,53 @@
+.apply {
+	display: flex;
+	justify-content: center;
+	gap: 68px;
+	padding-top: 157px;
+	padding-bottom: 264px;
+
+	.apply_right {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		h4 {
+			color: var(--ffffff, #FFF);
+			font-family: Open Sans;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 130%;
+			width: 484px;
+			padding-bottom: 30px;
+		}
+
+		p {
+			color: var(--ffffff, #FFF);
+			font-family: Open Sans;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 160%;
+			width: 460px;
+			opacity: 0.7;
+			padding-bottom: 50px;
+		}
+	}
+}
+
+.apply-btn {
+	display: block;
+
+	a {
+		border-radius: 5px;
+		background: var(--3-a-68-b-8, #3A68B8);
+		padding: 1rem 2rem;
+		text-decoration: none;
+		color: var(--ffffff, #FFF);
+		font-family: Open Sans;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+}
