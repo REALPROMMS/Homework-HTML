@@ -18,29 +18,31 @@
 		font-style: normal;
 		font-weight: 600;
 		line-height: 160%;
-		/* 28.8px */
 		text-transform: uppercase;
 		padding-bottom: 10px;
 	}
 
 	h1 {
-		color: #000;
-		font-family: Gilroy-Bold;
-		font-size: 60px;
+		color: var(--ffffff, #FFF);
+		font-family: Open Sans;
+		font-size: 55px;
 		font-style: normal;
-		font-weight: 400;
-		line-height: normal;
+		font-weight: 800;
+		line-height: 130%;
 		padding-bottom: 40px;
+		width: 105%;
 	}
 
 	p {
-		color: #888;
-		font-family: Gilroy-Medium;
-		font-size: 20px;
+		color: var(--ffffff, #FFF);
+		font-family: Open Sans;
+		font-size: 18px;
 		font-style: normal;
-		font-weight: 400;
-		line-height: normal;
-		width: 87%;
+		font-weight: 600;
+		line-height: 160%;
+		opacity: 0.7;
+
+		width: 97%;
 	}
 
 	.button {
@@ -62,6 +64,12 @@
 			line-height: normal;
 		}
 	}
+}
+
+.link-flex {
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
 .artificial__right {
