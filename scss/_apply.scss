@@ -51,3 +51,39 @@
 		line-height: normal;
 	}
 }
+
+@media (max-width: 375px) {
+
+	.apply {
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 96px;
+
+		.apply_left {
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.apply_right {
+			text-align: center;
+
+			h4 {
+				font-size: 24px;
+				padding-bottom: 16px;
+				width: 100%;
+			}
+
+			p {
+				padding-bottom: 16px;
+				width: 100%;
+			}
+
+			a {
+				display: inline-block;
+			}
+		}
+	}
+
+}
