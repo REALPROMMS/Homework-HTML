@@ -1,3 +1,9 @@
+.container {
+  max-width: 1178px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
 header {
   padding-bottom: 164px;
 }
@@ -19,10 +25,6 @@ header {
 }
 
 @media (max-width: 375px) {
-  .center {
-    padding-left: calc(50% - 179.5px);
-    padding-right: calc(50% - 179.5px);
-  }
   header {
     padding-bottom: 64px;
   }
@@ -116,16 +118,7 @@ header {
   justify-content: space-between;
 }
 
-.center {
-  padding-left: calc(50% - 573px);
-  padding-right: calc(50% - 573px);
-}
-
 @media (max-width: 1024px) {
-  .center {
-    padding-left: calc(50% - 376px);
-    padding-right: calc(50% - 376px);
-  }
   .artificial__info {
     flex-direction: column;
     align-items: center;
@@ -151,10 +144,6 @@ header {
   }
 }
 @media (max-width: 375px) {
-  .center {
-    padding-left: calc(50% - 172px);
-    padding-right: calc(50% - 172px);
-  }
   .artificial__info {
     flex-direction: column;
     align-items: center;
@@ -235,13 +224,20 @@ header {
   line-height: normal;
 }
 
+@media (max-width: 1024px) {
+  .apply {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media (max-width: 375px) {
   .apply {
     flex-direction: column;
     align-items: center;
     padding-bottom: 96px;
   }
-  .apply .apply_left img {
+  .apply .apply__left img {
     width: 100%;
   }
   .apply .apply_right {

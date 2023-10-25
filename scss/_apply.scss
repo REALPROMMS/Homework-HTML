@@ -52,6 +52,15 @@
 	}
 }
 
+@media (max-width: 1024px) {
+	.apply {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+
 @media (max-width: 375px) {
 
 	.apply {
@@ -59,7 +68,7 @@
 		align-items: center;
 		padding-bottom: 96px;
 
-		.apply_left {
+		.apply__left {
 
 			img {
 				width: 100%;
